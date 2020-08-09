@@ -70,10 +70,11 @@ export default function () {
       </header>
       <div className="banner">
         <div className="container">
-          <h1 className="font-weight-semibold">Už ką balsuotum tu?</h1>
+          <h1 className="font-weight-semibold">Lietuvos ateitis tavo rankose!</h1>
           <h6 className="font-weight-normal text-muted pb-3">
-            Balsuok už įstatymus ir sužinok kurie politikai
-            labiausiai atitinka tavo interesus.
+            Nežinai už ką balsuoti? Nepasitiki partijų šūkiais ir pažadais?
+            <br />
+            Tuomet būk išmanus ir priimk sprendimą!
           </h6>
           <div>
             <button
@@ -84,9 +85,11 @@ export default function () {
             >
               Pradedam
             </button>
-            <button className="btn btn-light ml-1">Sužinoti daugiau</button>
           </div>
-          <img src="images/Group171.svg" alt="" className="img-fluid" />
+          <img src="https://cdn.pixabay.com/photo/2016/10/21/19/04/lithuania-1758830_1280.png" alt="" className="img-fluid" style={{
+            margin: 30,
+            maxWidth: '50%'
+          }}></img>
         </div>
       </div>
       <div className="content-wrapper">
@@ -95,49 +98,37 @@ export default function () {
             <div className="content-header">
               <h2>Kaip tai veikia?</h2>
               <h6 className="section-subtitle text-muted">
-                One theme that serves as an easy-to-use operational toolkit
+              Balsuok už įstatymus ir sužinok kurie politikai 
                 <br />
-                that meets customer's needs.
+                labiausiai atitinka tavo interesus
               </h6>
             </div>
             <div className="d-md-flex justify-content-between">
               <div className="grid-margin d-flex justify-content-start">
                 <div className="features-width">
                   <img src="images/Group12.svg" alt="" className="img-icons" />
-                  <h5 className="py-3">Ačiū Lietuva. Už skaidrumą</h5>
+                  <h5 className="py-3">1. Balsuok už tau rūpimus klausimus</h5>
                   <p className="text-muted">
-                    Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce
-                    egeabus consectetuer turpis, suspendisse.
+                  Ar buvo reikalingas referendumas dėl seimo narių mažinimo? Ar turėjo būti uždraustas smurtas prieš vaikus? Jūs nuspręskite!
                   </p>
-                  <a href="#">
-                    <p className="readmore-link">Readmore</p>
-                  </a>
                 </div>
               </div>
               <div className="grid-margin d-flex justify-content-center">
                 <div className="features-width">
                   <img src="images/Group7.svg" alt="" className="img-icons" />
-                  <h5 className="py-3">Atrenkame populiariausius</h5>
+                  <h5 className="py-3">2. Duomenų palyginimas</h5>
                   <p className="text-muted">
-                    Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce
-                    egeabus consectetuer turpis, suspendisse.
+                  Jūsų sprendimai bus palyginti su realiais politikų balsavimo rezultatais
                   </p>
-                  <a href="#">
-                    <p className="readmore-link">Readmore</p>
-                  </a>
                 </div>
               </div>
               <div className="grid-margin d-flex justify-content-end">
                 <div className="features-width">
                   <img src="images/Group5.svg" alt="" className="img-icons" />
-                  <h5 className="py-3">Pasveriame tavo balsą</h5>
+                  <h5 className="py-3">3. Kandidatų atranka</h5>
                   <p className="text-muted">
-                    Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce
-                    egeabus consectetuer turpis, suspendisse.
+                    Išmanioji reitingavimo sistema leis atsirinkti tinkamiausius kandidatus
                   </p>
-                  <a href="#">
-                    <p className="readmore-link">Readmore</p>
-                  </a>
                 </div>
               </div>
             </div>
@@ -154,12 +145,23 @@ export default function () {
                 <h3 className="m-0">Balsuokime protingai ir atsakingai.</h3>
                 <div className="col-lg-7 col-xl-6 p-0">
                   <p className="py-4 m-0 text-muted">
-                    Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce
-                    egeabus consectetuer turpis, suspendisse.
+                  Kiekvienas iš mūsų gali prisidėti prie geresnės Lietuvos kūrimo.
+                    
+                    {/* 
+                    Mes tikime, kad kiekvienas balsas yra svarbus. 
+                    
+                    Mes siekiame didinti politine atskaitomybe bei skatinti pilietiškumą.
+                                      
+                    Kiekvienas iš mūsų gali prisidėti prie geresnės Lietuvos kūrimo.
+                    
+                    Pasinaudokime 21 amžiaus technologijomis, tam, kad
+                    įveiktume šimtečio demokratijos problemą.
+ */}
+
+
                   </p>
                   <p className="font-weight-medium text-muted">
-                    Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce
-                    egeabus consectetuer
+                    LRS rinkimai 2020 m. spalio 11 d.
                   </p>
                 </div>
               </div>
@@ -167,33 +169,10 @@ export default function () {
                 className="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0"
                 data-aos="fade-left"
               >
-                <img src="images/Group1.png" alt="" className="img-fluid" />
-              </div>
-            </div>
-            <div className="row align-items-center">
-              <div
-                className="col-12 col-lg-7 text-center flex-item grid-margin"
-                data-aos="fade-right"
-              >
-                <img src="images/Group2.png" alt="" className="img-fluid" />
-              </div>
-              <div
-                className="col-12 col-lg-5 flex-item grid-margin"
-                data-aos="fade-left"
-              >
-                <h3 className="m-0">Sužinok kaip balsuoja kiti politikai</h3>
-                <div className="col-lg-9 col-xl-8 p-0">
-                  <p className="py-4 m-0 text-muted">
-                    Power-packed with impressive features and well-optimized,
-                    this template is designed to provide the best performance in
-                    all circumstances.
-                  </p>
-                  <p className="pb-2 font-weight-medium text-muted">
-                    Its smart features make it a powerful stand-alone website
-                    building tool.
-                  </p>
-                </div>
-                <button className="btn btn-info">Readmore</button>
+                <img src="https://cdn.pixabay.com/photo/2016/03/31/19/21/ballot-1294935_960_720.png" alt="" className="img-fluid" style={{
+            margin: 30,
+            maxWidth: '50%'
+          }}></img>
               </div>
             </div>
           </section>
@@ -224,49 +203,31 @@ export default function () {
                   className="pb-2"
                 />
                 <div className="pt-2">
-                  <p className="text-muted m-0">mikayla_beer@feil.name</p>
-                  <p className="text-muted m-0">906-179-8309</p>
+                  <p className="text-muted m-0">info@priimksprendima.lt</p>
                 </div>
               </div>
               <div className="col-12 col-md-6 col-lg-3 grid-margin">
-                <h5 className="pb-2">Get in Touch</h5>
-                <p className="text-muted">
-                  Don’t miss any updates of our new templates and extensions.!
-                </p>
-                <form>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="Email"
-                    placeholder="Email id"
-                  />
-                </form>
-                <div className="pt-3">
-                  <button className="btn btn-dark">Subscribe</button>
-                </div>
+                <h5 className="pb-2">Prisijunk prie mūsų</h5>
+                
+                <a href="https://github.com/digimuza/lrs-api" target="_blank">
+                  <p className="m-0 pb-2">GitHub</p>
+                </a>                
               </div>
               <div className="col-12 col-md-6 col-lg-3 grid-margin">
-                <h5 className="pb-2">Our Guidelines</h5>
+                <h5 className="pb-2">Naudinga</h5>
                 <a href="#">
-                  <p className="m-0 pb-2">Terms</p>
+                  <p className="m-0 pb-2">Paslaugų teikimo taisyklės</p>
                 </a>
                 <a href="#">
-                  <p className="m-0 pt-1 pb-2">Privacy policy</p>
+                  <p className="m-0 pt-1 pb-2">Privatumo politika</p>
                 </a>
                 <a href="#">
-                  <p className="m-0 pt-1 pb-2">Cookie Policy</p>
-                </a>
-                <a href="#">
-                  <p className="m-0 pt-1">Discover</p>
+                  <p className="m-0 pt-1 pb-2">Slapukų politika</p>
                 </a>
               </div>
               <div className="col-12 col-md-6 col-lg-3 grid-margin">
-                <h5 className="pb-2">Our address</h5>
-                <p className="text-muted">
-                  518 Schmeler Neck
-                  <br />
-                  Bartlett. Illinois
-                </p>
+                <h5 className="pb-2">Sekite mus</h5>
+                
                 <div className="d-flex justify-content-center justify-content-md-start">
                   <a href="#">
                     <span className="mdi mdi-facebook" />
@@ -285,13 +246,6 @@ export default function () {
             </div>
           </section>
           <footer className="border-top">
-            <p className="text-center text-muted pt-4">
-              Copyright © 2019
-              <a href="https://www.bootstrapdash.com/" className="px-1">
-                Bootstrapdash.
-              </a>
-              All rights reserved.
-            </p>
           </footer>
           {/* Modal for Contact - us Button */}
           <div
